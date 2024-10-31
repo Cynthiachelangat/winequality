@@ -61,3 +61,48 @@ x==========x]
 [2024-10-31 17:13:51,395: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
 
 x==========x]
+[2024-10-31 17:40:45,039: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-31 17:40:45,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-31 17:40:45,058: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-10-31 17:40:45,061: INFO: common: created directory at: artifacts]
+[2024-10-31 17:40:45,063: INFO: common: created directory at: artifacts/model_trainer]
+[2024-10-31 18:01:11,525: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-31 18:01:11,525: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-31 18:01:11,525: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-31 18:01:11,525: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-10-31 18:01:11,525: INFO: common: created directory at: artifacts]
+[2024-10-31 18:01:11,539: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-31 18:01:11,540: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-10-31 18:01:11,547: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-31 18:01:11,550: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-10-31 18:01:11,557: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-31 18:01:11,560: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-31 18:01:11,566: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-10-31 18:01:11,568: INFO: common: created directory at: artifacts]
+[2024-10-31 18:01:11,569: INFO: common: created directory at: artifacts/data_validation]
+[2024-10-31 18:01:11,606: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-10-31 18:01:11,607: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-10-31 18:01:11,617: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-31 18:01:11,620: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-31 18:01:11,624: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-10-31 18:01:11,626: INFO: common: created directory at: artifacts]
+[2024-10-31 18:01:11,628: INFO: common: created directory at: artifacts/data_transformation]
+[2024-10-31 18:01:11,671: INFO: dataTransformation: Splited data into training and test sets]
+[2024-10-31 18:01:11,671: INFO: dataTransformation: (1199, 12)]
+[2024-10-31 18:01:11,672: INFO: dataTransformation: (400, 12)]
+[2024-10-31 18:01:11,676: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-10-31 18:01:11,678: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-10-31 18:01:11,681: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-31 18:01:11,684: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-31 18:01:11,689: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-10-31 18:01:11,690: INFO: common: created directory at: artifacts]
+[2024-10-31 18:01:11,691: INFO: common: created directory at: artifacts/model_trainer]
+[2024-10-31 18:01:11,736: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]

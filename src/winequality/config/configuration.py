@@ -4,7 +4,7 @@ from winequality.entity.config_entity import (DataIngestionConfig,
                                             DataValidationConfig,
                                             DataTransformationConfig,
                                             ModelTrainerConfig,
-                                            ModelEvaluationConfig)
+                                            )
 
 class ConfigurationManager:
     def __init__(
